@@ -1,0 +1,107 @@
+            /*Estilos generales para los 5 HTML*/
+.css{
+margin: 0;
+padding: 0; 
+}
+
+.logo{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+body{
+    background-image:linear-gradient(to bottom, rgb(120, 8, 120), rgb(206, 116, 131),rgb(166, 166, 7), grey);
+    font-family:'M PLUS Rounded 1c', sans-serif;  
+}
+.navbar-toggler{
+    background-color: rgb(96, 16, 216);
+    border: solid 1px rgb (96,16,216);
+}
+.navbar-brand{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+
+
+              /*Estilos para el index*/
+ /* carrusel*/
+ #carouselExampleCaptions{
+    width:700px; 
+ }
+ .carousel-item img{
+    height: 500px;
+ }
+
+
+        
+
+                 /*Estilos para quienes somos*/
+
+
+
+
+
+
+                 /*Estilos para nuestros productos*/
+ h1, h2, h3 {
+    color: white;
+}
+                         /* cards*/
+    .padre-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }     
+    
+    .card img{
+        height: 200px;
+    }
+         /*Para tablets*/
+         @media (min-width: 768px) {
+            .padre-cards{
+                 display: grid;
+                 grid-template-columns: repeat(2, 1fr);
+                 justify-items: center;
+            }
+         }
+
+         /*para desktop*/
+         @media (min-width: 992px){
+            .padre-cards{
+                grid-template-columns: repeat(3, 1fr);
+
+            }
+         }
+
+         /*para desktop grande*/
+         @media (min-width:1200px){
+            .padre-cards{
+                display: flex;flex-direction: row;
+                flex-wrap: wrap;
+            }
+        
+         
+            
+
+         
+
+                 /*Estilos para fotos*/
+
+
+
+
+
+
+
+                 /*Estilos para donde encontrarnos*/
